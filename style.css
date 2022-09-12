@@ -5,12 +5,35 @@ margin: 0;
     font-family: sans-serif;
     font-size: 1em;
     line-height: 1.5;
-    color: #6b7177;
+    color: #ffffff;
     font-weight: 400;
 }
 
 .caixa1 {
+    height: 120vh;
     text-align: center;
+}
+
+.caixainterna img {
+    margin-top: 26px;
+}
+
+.caixainterna h2{
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.lojinha{
+    height:50% ;
+    width: 100%;
+}
+
+.lojinhaImg{
+    height: 75%;
+}
+
+.caixainterna h1{
+    font-size: 55px;
 }
 
 .caixainterna{
@@ -18,4 +41,40 @@ margin: 0;
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
+}
+
+.email{
+    height: 15px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 0px 8px 8px;
+}
+
+.botao{
+    background-color: #212326;
+    color: #ffffff;
+    height: 49px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.vantagens{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container{
+    width: 300px;
+    margin:0 16px;
+    color: black;
+    }
+
+.marcas{
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
