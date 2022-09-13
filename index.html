@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <main class="main">
@@ -88,13 +89,31 @@
             <h2 class="titulo">FAQs</h2>
             <div class="grid-faqs">
                 <ul class="perguntas">
-                    <li>What is Shopify and how does it work ?</li>
-                    <li>How much does Shopify cost?</li>
-                    <li>Can I use my own domain name with Shopify?</li>
-                    <li>Do I need to be a designer or developer to use Shopify?</li>
+                    <li>
+                        <h4>What is Shopify and how does it work ? <i class="material-icons">add</i></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta architecto facilis modi aliquid labore commodi eius voluptatem amet magnam recusandae deleniti ea id, repellendus odio harum ducimus placeat. Ipsam, quasi!</p>
+                    </li>
+                    <li>
+                        <h4>How much does Shopify cost? <i class="material-icons">add</i></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque praesentium nihil obcaecati eligendi consectetur reprehenderit ullam suscipit, illum ipsam at, aut reiciendis omnis a unde. Nulla tempore in odit vero.</p> 
+                    </li>
+                    <li>
+                        <h4>Can I use my own domain name with Shopify? <i class="material-icons">add</i></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vitae dolore sint! Suscipit soluta placeat ipsum porro deserunt odio, obcaecati possimus nam quas, quia veritatis neque doloremque aperiam ducimus? Reiciendis!</p>
+                    </li>
+                    <li>
+                        <h4>Do I need to be a designer or developer to use Shopify? <i class="material-icons">add</i></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium eveniet fuga exercitationem suscipit voluptatibus adipisci officia! Libero recusandae harum saepe tempora, vel minima, iusto inventore mollitia ipsam non reprehenderit.</p>
+                    </li>
                 </ul>
             </div>
         </section>
     </main>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $('.perguntas li').click(function(){
+        $(this).find('p').toggle('fast')
+    })
+</script>
 </html>
